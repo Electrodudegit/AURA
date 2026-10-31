@@ -1,0 +1,20 @@
+host=api.x.ai proto=TLSv1.2 suite=TLS-ECDHE-ECDSA-WITH-AES-128-GCM-SHA256 verify=0x0
+peer_chain certs=3 raw=2469 B  pk=EC 256 bits
+handshake_peak payload=45352 esp=46244 blocks_at_peak=55 largest_single=16717 allocs=12847
+session_steady payload=40272 esp=40988 blocks=44
+host=api.open-meteo.com proto=TLSv1.2 suite=TLS-ECDHE-RSA-WITH-AES-256-GCM-SHA384 verify=0x0
+peer_chain certs=3 raw=4067 B  pk=RSA 2048 bits
+handshake_peak payload=53564 esp=54372 blocks_at_peak=50 largest_single=16717 allocs=6304
+session_steady payload=43432 esp=44064 blocks=39
+host=air-quality-api.open-meteo.com proto=TLSv1.2 suite=TLS-ECDHE-RSA-WITH-AES-256-GCM-SHA384 verify=0x0
+peer_chain certs=3 raw=4053 B  pk=RSA 2048 bits
+handshake_peak payload=53546 esp=54340 blocks_at_peak=49 largest_single=16717 allocs=6303
+session_steady payload=43414 esp=44032 blocks=38
+host=api.coingecko.com proto=TLSv1.2 suite=TLS-ECDHE-ECDSA-WITH-AES-128-GCM-SHA256 verify=0x0
+peer_chain certs=4 raw=3416 B  pk=EC 256 bits
+handshake_peak payload=52160 esp=53164 blocks_at_peak=62 largest_single=16717 allocs=16221
+session_steady payload=41960 esp=42788 blocks=51
+host=feeds.bbci.co.uk proto=TLSv1.2 suite=TLS-ECDHE-ECDSA-WITH-AES-256-GCM-SHA384 verify=0x0
+peer_chain certs=4 raw=4502 B  pk=EC 256 bits
+handshake_peak payload=49037 esp=50464 blocks_at_peak=88 largest_single=16717 allocs=13597
+session_steady payload=43973 esp=45224 blocks=77

@@ -1,0 +1,5 @@
+<?xml version="1.0"?><rss><channel><title>Example &amp; Co Feed</title>
+<item><title>Plain title with &quot;quotes&quot; &amp; ampersand &#8217;s and &#x2014; dash</title></item>
+<item ><title type="text"><![CDATA[UTF-8 “smart” quotes – dashes… and naïve café]]></title><description><![CDATA[<p>html <title>fake</title></p>]]></description></item>
+<item><title><![CDATA[A very long headline that goes on and on and on well beyond one hundred characters of text to test the bounded buffer truncation logic here]]></title></item>
+</channel></rss>

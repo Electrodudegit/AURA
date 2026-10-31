@@ -1,0 +1,41 @@
+/* Host build of the ESP-IDF 5.5 / arduino-esp32 3.3.12 mbedTLS config (esp_config.h + the prebuilt
+ * sdkconfig.h), with the ESP32 hardware ALT and platform hooks removed, so the TLS handshake heap
+ * profile can be measured on the PC (-m32: 32-bit pointers and limbs like the ESP32). */
+#include "sdkconfig.h"
+#define CONFIG_IDF_TARGET_LINUX 1
+#include "esp_config_orig.h"
+#undef MBEDTLS_PLATFORM_MS_TIME_ALT
+#undef MBEDTLS_PLATFORM_TIME_ALT
+#undef MBEDTLS_PLATFORM_STD_CALLOC
+#undef MBEDTLS_PLATFORM_STD_FREE
+#undef MBEDTLS_AES_ALT
+#undef MBEDTLS_GCM_ALT
+#undef MBEDTLS_SHA1_ALT
+#undef MBEDTLS_SHA256_ALT
+#undef MBEDTLS_SHA512_ALT
+#undef MBEDTLS_MD5_ALT
+#undef MBEDTLS_MPI_MUL_MPI_ALT
+#undef MBEDTLS_MPI_EXP_MOD_ALT
+#undef MBEDTLS_MPI_EXP_MOD_ALT_FALLBACK
+#undef MBEDTLS_ECDSA_SIGN_ALT
+#undef MBEDTLS_ECDSA_VERIFY_ALT
+#undef MBEDTLS_ECP_ALT
+#undef MBEDTLS_ECP_MUL_ALT
+#undef MBEDTLS_ECP_VERIFY_ALT
+#undef MBEDTLS_ECP_MUL_ALT_SOFT_FALLBACK
+#undef MBEDTLS_ECP_VERIFY_ALT_SOFT_FALLBACK
+#undef MBEDTLS_ENTROPY_HARDWARE_ALT
+#undef MBEDTLS_NO_PLATFORM_ENTROPY
+#undef MBEDTLS_THREADING_C
+#undef MBEDTLS_THREADING_ALT
+#undef MBEDTLS_THREADING_PTHREAD
+#undef MBEDTLS_PK_RSA_ALT_SUPPORT
+#undef MBEDTLS_TIMING_ALT
+#undef MBEDTLS_SHA224_ALT
+#undef MBEDTLS_SHA384_ALT
+#undef MBEDTLS_AES_GCM_ALT
+#undef MBEDTLS_BIGNUM_ALT
+#undef MBEDTLS_RSA_ALT
+#undef MBEDTLS_CMAC_ALT
+#define MBEDTLS_NET_C
+#define MBEDTLS_TIMING_C

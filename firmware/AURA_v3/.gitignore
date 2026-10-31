@@ -1,0 +1,16 @@
+# Firmware images and link products. A .bin built from a filled-in secrets.h
+# can contain those values. Never commit them.
+*.bin
+*.elf
+*.map
+*.o
+build/
+build*/
+.pio/
+.vscode/
+__pycache__/
+*.pyc
+extras/host/aura_host
+captures/
+*.ppm
+uploads/

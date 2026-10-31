@@ -1,0 +1,1149 @@
+{
+  "apikey": "put your credential here",
+  "data": [
+    {
+      "id": "326660fd-3ba5-498f-a70c-8465448e3c34",
+      "name": "Mexico Women vs Argentina Women, 3rd T20I, Argentina Women tour of Mexico, 2026",
+      "matchType": "t20",
+      "status": "Argentina Women won by 135 runs",
+      "venue": "Complejo Municipal de Beisbol de Texcoco, Texcoco de Mora",
+      "date": "2026-10-25",
+      "dateTimeGMT": "2026-10-25T14:00:00",
+      "teams": [
+        "Mexico Women",
+        "Argentina Women"
+      ],
+      "teamInfo": [
+        {
+          "name": "Argentina Women",
+          "shortname": "ARW",
+          "img": "https://g.cricapi.com/iapi/579-637869397212602812.webp?w=48"
+        },
+        {
+          "name": "Mexico Women",
+          "shortname": "MXW",
+          "img": "https://h.cricapi.com/img/icon512.png"
+        }
+      ],
+      "score": [
+        {
+          "r": 186,
+          "w": 7,
+          "o": 20,
+          "inning": "argentina women Inning 1"
+        },
+        {
+          "r": 51,
+          "w": 10,
+          "o": 12.5,
+          "inning": "Mexico Women,Argentina Women Inning 1"
+        }
+      ],
+      "series_id": "dbd6fb0b-4c7c-4c88-a148-f6af2c5b7686",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": false,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "a2d9a56c-3489-48c6-8382-081f656ff954",
+      "name": "Mexico Women vs Argentina Women, 2nd T20I, Argentina Women tour of Mexico, 2026",
+      "matchType": "t20",
+      "status": "Argentina Women won by 165 runs",
+      "venue": "Complejo Municipal de Beisbol de Texcoco, Texcoco de Mora",
+      "date": "2026-10-25",
+      "dateTimeGMT": "2026-10-25T19:00:00",
+      "teams": [
+        "Mexico Women",
+        "Argentina Women"
+      ],
+      "teamInfo": [
+        {
+          "name": "Argentina Women",
+          "shortname": "ARW",
+          "img": "https://g.cricapi.com/iapi/579-637869397212602812.webp?w=48"
+        },
+        {
+          "name": "Mexico Women",
+          "shortname": "MXW",
+          "img": "https://h.cricapi.com/img/icon512.png"
+        }
+      ],
+      "score": [
+        {
+          "r": 188,
+          "w": 5,
+          "o": 20,
+          "inning": "argentina women Inning 1"
+        },
+        {
+          "r": 23,
+          "w": 10,
+          "o": 9.3,
+          "inning": "Mexico Women,Argentina Women Inning 1"
+        }
+      ],
+      "series_id": "dbd6fb0b-4c7c-4c88-a148-f6af2c5b7686",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": false,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "13ecc73c-a3c3-49bb-ae2d-6c1593859d56",
+      "name": "Mexico Women vs Argentina Women, 1st T20I, Argentina Women tour of Mexico, 2026",
+      "matchType": "t20",
+      "status": "Argentina Women won by 223 runs",
+      "venue": "Complejo Municipal de Beisbol de Texcoco, Texcoco de Mora",
+      "date": "2026-10-24",
+      "dateTimeGMT": "2026-10-24T14:00:00",
+      "teams": [
+        "Mexico Women",
+        "Argentina Women"
+      ],
+      "teamInfo": [
+        {
+          "name": "Argentina Women",
+          "shortname": "ARW",
+          "img": "https://g.cricapi.com/iapi/579-637869397212602812.webp?w=48"
+        },
+        {
+          "name": "Mexico Women",
+          "shortname": "MXW",
+          "img": "https://h.cricapi.com/img/icon512.png"
+        }
+      ],
+      "score": [
+        {
+          "r": 260,
+          "w": 5,
+          "o": 20,
+          "inning": "Argentina Women Inning 1"
+        },
+        {
+          "r": 37,
+          "w": 10,
+          "o": 11.4,
+          "inning": "Mexico Women Inning 1"
+        }
+      ],
+      "series_id": "dbd6fb0b-4c7c-4c88-a148-f6af2c5b7686",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": false,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "8ac2a8d5-2da4-4c95-9772-63a4fb6c42ca",
+      "name": "United Arab Emirates vs Netherlands, 140th Match, ICC Cricket World Cup League Two 2023-27",
+      "matchType": "odi",
+      "status": "Netherlands won by 3 wkts",
+      "venue": "ICC Academy Ground, Dubai",
+      "date": "2026-10-25",
+      "dateTimeGMT": "2026-10-25T05:30:00",
+      "teams": [
+        "United Arab Emirates",
+        "Netherlands"
+      ],
+      "teamInfo": [
+        {
+          "name": "Netherlands",
+          "shortname": "NED",
+          "img": "https://g.cricapi.com/iapi/55-637877084465746618.webp?w=48"
+        },
+        {
+          "name": "United Arab Emirates",
+          "shortname": "UAE",
+          "img": "https://g.cricapi.com/iapi/92-637877081068315608.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 244,
+          "w": 8,
+          "o": 50,
+          "inning": "united arab emirates Inning 1"
+        },
+        {
+          "r": 245,
+          "w": 7,
+          "o": 43.5,
+          "inning": "United Arab Emirates,Netherlands Inning 1"
+        }
+      ],
+      "series_id": "7ac098a3-5d70-4c81-8e81-199edbeffc29",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "254aac65-a869-4b29-9ba4-4552f19f121f",
+      "name": "Denmark vs Papua New Guinea, 37th Match, ICC CWC Challenge League A, 2024-26",
+      "matchType": "odi",
+      "status": "Papua New Guinea won by 4 wkts",
+      "venue": "Ruaraka Sports Club Ground, Nairobi",
+      "date": "2026-10-25",
+      "dateTimeGMT": "2026-10-25T05:30:00",
+      "teams": [
+        "Denmark",
+        "Papua New Guinea"
+      ],
+      "teamInfo": [
+        {
+          "name": "Denmark",
+          "shortname": "DEN",
+          "img": "https://g.cricapi.com/iapi/599-637867438645047537.webp?w=48"
+        },
+        {
+          "name": "Papua New Guinea",
+          "shortname": "PNG",
+          "img": "https://g.cricapi.com/iapi/68-637877083835752068.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 304,
+          "w": 6,
+          "o": 50,
+          "inning": "Denmark Inning 1"
+        },
+        {
+          "r": 307,
+          "w": 6,
+          "o": 49.1,
+          "inning": "Papua New Guinea Inning 1"
+        }
+      ],
+      "series_id": "fca4f99a-269b-4fac-b6d0-4a7f70c6472e",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "d766b31d-b69f-46f5-bb13-307bae39d37e",
+      "name": "Jersey vs Kenya, 36th Match, ICC CWC Challenge League A, 2024-26",
+      "matchType": "odi",
+      "status": "Jersey won by 123 runs",
+      "venue": "Gymkhana Club Ground, Nairobi",
+      "date": "2026-10-25",
+      "dateTimeGMT": "2026-10-25T05:30:00",
+      "teams": [
+        "Jersey",
+        "Kenya"
+      ],
+      "teamInfo": [
+        {
+          "name": "Jersey",
+          "shortname": "JER",
+          "img": "https://g.cricapi.com/iapi/619-637877088641021958.webp?w=48"
+        },
+        {
+          "name": "Kenya",
+          "shortname": "KEN",
+          "img": "https://g.cricapi.com/iapi/620-637877088284816006.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 320,
+          "w": 9,
+          "o": 50,
+          "inning": "jersey Inning 1"
+        },
+        {
+          "r": 197,
+          "w": 10,
+          "o": 42,
+          "inning": "Jersey,Kenya Inning 1"
+        }
+      ],
+      "series_id": "fca4f99a-269b-4fac-b6d0-4a7f70c6472e",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "acaeec1f-8aad-4da1-b938-790780303e0a",
+      "name": "Denmark vs Kuwait, 34th Match, ICC CWC Challenge League A, 2024-26",
+      "matchType": "odi",
+      "status": "Denmark won by 102 runs",
+      "venue": "Gymkhana Club Ground, Nairobi",
+      "date": "2026-10-24",
+      "dateTimeGMT": "2026-10-24T00:00:00",
+      "teams": [
+        "Denmark",
+        "Kuwait"
+      ],
+      "teamInfo": [
+        {
+          "name": "Denmark",
+          "shortname": "DEN",
+          "img": "https://g.cricapi.com/iapi/599-637867438645047537.webp?w=48"
+        },
+        {
+          "name": "Kuwait",
+          "shortname": "KUW",
+          "img": "https://g.cricapi.com/iapi/621-637864920257551899.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 274,
+          "w": 8,
+          "o": 50,
+          "inning": "denmark Inning 1"
+        },
+        {
+          "r": 172,
+          "w": 10,
+          "o": 29.4,
+          "inning": "Denmark,Kuwait Inning 1"
+        }
+      ],
+      "series_id": "fca4f99a-269b-4fac-b6d0-4a7f70c6472e",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "ad69a927-b6f2-4535-95c1-da3fc0203e45",
+      "name": "Qatar vs Kenya, 35th Match, ICC CWC Challenge League A, 2024-26",
+      "matchType": "odi",
+      "status": "Qatar won by 4 runs",
+      "venue": "Ruaraka Sports Club Ground, Nairobi",
+      "date": "2026-10-24",
+      "dateTimeGMT": "2026-10-24T00:00:00",
+      "teams": [
+        "Qatar",
+        "Kenya"
+      ],
+      "teamInfo": [
+        {
+          "name": "Kenya",
+          "shortname": "KEN",
+          "img": "https://g.cricapi.com/iapi/620-637877088284816006.webp?w=48"
+        },
+        {
+          "name": "Qatar",
+          "shortname": "QAT",
+          "img": "https://g.cricapi.com/iapi/577-637877086204623715.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 283,
+          "w": 10,
+          "o": 49.1,
+          "inning": "Qatar Inning 1"
+        },
+        {
+          "r": 279,
+          "w": 10,
+          "o": 48.5,
+          "inning": "Kenya Inning 1"
+        }
+      ],
+      "series_id": "fca4f99a-269b-4fac-b6d0-4a7f70c6472e",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "157a08e6-8f59-4f27-a4d7-efd3be3390db",
+      "name": "Qatar vs Kuwait, 33rd Match, ICC CWC Challenge League A, 2024-26",
+      "matchType": "odi",
+      "status": "Qatar won by 5 wkts",
+      "venue": "Ruaraka Sports Club Ground, Nairobi",
+      "date": "2026-10-22",
+      "dateTimeGMT": "2026-10-22T06:45:00",
+      "teams": [
+        "Qatar",
+        "Kuwait"
+      ],
+      "teamInfo": [
+        {
+          "name": "Kuwait",
+          "shortname": "KUW",
+          "img": "https://g.cricapi.com/iapi/621-637864920257551899.webp?w=48"
+        },
+        {
+          "name": "Qatar",
+          "shortname": "QAT",
+          "img": "https://g.cricapi.com/iapi/577-637877086204623715.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 331,
+          "w": 6,
+          "o": 50,
+          "inning": "kuwait Inning 1"
+        },
+        {
+          "r": 335,
+          "w": 5,
+          "o": 45.3,
+          "inning": "Qatar,Kuwait Inning 1"
+        }
+      ],
+      "series_id": "fca4f99a-269b-4fac-b6d0-4a7f70c6472e",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "e61c5bef-4e89-4603-94cc-bb8cb4b9949e",
+      "name": "Papua New Guinea vs Jersey, 32nd Match, ICC CWC Challenge League A, 2024-26",
+      "matchType": "odi",
+      "status": "Jersey won by 172 runs",
+      "venue": "Gymkhana Club Ground, Nairobi",
+      "date": "2026-10-22",
+      "dateTimeGMT": "2026-10-22T06:45:00",
+      "teams": [
+        "Papua New Guinea",
+        "Jersey"
+      ],
+      "teamInfo": [
+        {
+          "name": "Jersey",
+          "shortname": "JER",
+          "img": "https://g.cricapi.com/iapi/619-637877088641021958.webp?w=48"
+        },
+        {
+          "name": "Papua New Guinea",
+          "shortname": "PNG",
+          "img": "https://g.cricapi.com/iapi/68-637877083835752068.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 347,
+          "w": 5,
+          "o": 50,
+          "inning": "jersey Inning 1"
+        },
+        {
+          "r": 175,
+          "w": 10,
+          "o": 36.5,
+          "inning": "Papua New Guinea,Jersey Inning 1"
+        }
+      ],
+      "series_id": "fca4f99a-269b-4fac-b6d0-4a7f70c6472e",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "17cfca64-315b-498b-8009-57996a04342f",
+      "name": "Afghanistan vs Zimbabwe, Final, ODI Tri-Nation Series in UAE, 2026",
+      "matchType": "odi",
+      "status": "Afghanistan won by 7 wkts",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2026-10-23",
+      "dateTimeGMT": "2026-10-23T12:00:00",
+      "teams": [
+        "Afghanistan",
+        "Zimbabwe"
+      ],
+      "teamInfo": [
+        {
+          "name": "Afghanistan",
+          "shortname": "AFG",
+          "img": "https://g.cricapi.com/iapi/1-637877075587179422.webp?w=48"
+        },
+        {
+          "name": "Zimbabwe",
+          "shortname": "ZIM",
+          "img": "https://g.cricapi.com/iapi/575-637877079629985215.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 169,
+          "w": 10,
+          "o": 43.3,
+          "inning": "zimbabwe Inning 1"
+        },
+        {
+          "r": 170,
+          "w": 3,
+          "o": 34.3,
+          "inning": "Afghanistan,Zimbabwe Inning 1"
+        }
+      ],
+      "series_id": "477506b9-5775-4b68-923e-31b79cea03ca",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "3ada9f3e-8e32-4f49-80d5-0f915e19d3fd",
+      "name": "Namibia vs Ireland, 2nd ODI, Ireland tour of Namibia, 2026",
+      "matchType": "odi",
+      "status": "Namibia won by 31 runs",
+      "venue": "Namibia Cricket Ground, Windhoek",
+      "date": "2026-10-24",
+      "dateTimeGMT": "2026-10-24T08:00:00",
+      "teams": [
+        "Namibia",
+        "Ireland"
+      ],
+      "teamInfo": [
+        {
+          "name": "Ireland",
+          "shortname": "IRE",
+          "img": "https://g.cricapi.com/iapi/33-637926315578500224.png?w=48"
+        },
+        {
+          "name": "Namibia",
+          "shortname": "NAM",
+          "img": "https://g.cricapi.com/iapi/53-637877082656229722.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 321,
+          "w": 6,
+          "o": 50,
+          "inning": "Namibia Inning 1"
+        },
+        {
+          "r": 290,
+          "w": 10,
+          "o": 47.3,
+          "inning": "Ireland Inning 1"
+        }
+      ],
+      "series_id": "ac09b782-bac3-4861-971a-5559a4703507",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": false,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "98e35c6a-8155-4959-8df7-b4ac6fc4edfd",
+      "name": "Namibia vs Ireland, 1st ODI, Ireland tour of Namibia, 2026",
+      "matchType": "odi",
+      "status": "Ireland won by 55 runs",
+      "venue": "High Performance Oval, Windhoek",
+      "date": "2026-10-22",
+      "dateTimeGMT": "2026-10-22T08:00:00",
+      "teams": [
+        "Namibia",
+        "Ireland"
+      ],
+      "teamInfo": [
+        {
+          "name": "Ireland",
+          "shortname": "IRE",
+          "img": "https://g.cricapi.com/iapi/33-637926315578500224.png?w=48"
+        },
+        {
+          "name": "Namibia",
+          "shortname": "NAM",
+          "img": "https://g.cricapi.com/iapi/53-637877082656229722.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 229,
+          "w": 9,
+          "o": 50,
+          "inning": "Ireland Inning 1"
+        },
+        {
+          "r": 174,
+          "w": 10,
+          "o": 37.5,
+          "inning": "Namibia Inning 1"
+        }
+      ],
+      "series_id": "ac09b782-bac3-4861-971a-5559a4703507",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": false,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "f542502b-a537-46a6-8dbd-48eeaedd4d90",
+      "name": "Pakistan vs England, 4th Match, Pakistan ODI Tri-Series, 2026",
+      "matchType": "odi",
+      "status": "Pakistan won by 1 wkt",
+      "venue": "Gaddafi Stadium, Lahore",
+      "date": "2026-10-25",
+      "dateTimeGMT": "2026-10-25T08:00:00",
+      "teams": [
+        "Pakistan",
+        "England"
+      ],
+      "teamInfo": [
+        {
+          "name": "England",
+          "shortname": "ENG",
+          "img": "https://g.cricapi.com/iapi/23-637877072894080569.webp?w=48"
+        },
+        {
+          "name": "Pakistan",
+          "shortname": "PAK",
+          "img": "https://g.cricapi.com/iapi/66-637877075103236690.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 241,
+          "w": 10,
+          "o": 46.4,
+          "inning": "England Inning 1"
+        },
+        {
+          "r": 243,
+          "w": 9,
+          "o": 47.1,
+          "inning": "Pakistan Inning 1"
+        }
+      ],
+      "series_id": "4ae8cc66-cc9c-4e5f-b404-3bdc1e9a3a54",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": false,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "374856f9-a78b-425b-b6db-10f190bb8eb6",
+      "name": "Sri Lanka vs England, 3rd Match, Pakistan ODI Tri-Series, 2026",
+      "matchType": "odi",
+      "status": "Sri Lanka won by 2 wkts",
+      "venue": "Rawalpindi Cricket Stadium, Rawalpindi",
+      "date": "2026-10-22",
+      "dateTimeGMT": "2026-10-22T08:00:00",
+      "teams": [
+        "Sri Lanka",
+        "England"
+      ],
+      "teamInfo": [
+        {
+          "name": "England",
+          "shortname": "ENG",
+          "img": "https://g.cricapi.com/iapi/23-637877072894080569.webp?w=48"
+        },
+        {
+          "name": "Sri Lanka",
+          "shortname": "SL",
+          "img": "https://g.cricapi.com/iapi/4191-638101639309122979.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 429,
+          "w": 4,
+          "o": 50,
+          "inning": "England Inning 1"
+        },
+        {
+          "r": 430,
+          "w": 8,
+          "o": 49.5,
+          "inning": "Sri Lanka Inning 1"
+        }
+      ],
+      "series_id": "4ae8cc66-cc9c-4e5f-b404-3bdc1e9a3a54",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": false,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "aa5a7ee5-117f-4cfe-bf6f-81f3aa749e66",
+      "name": "New Zealand A vs India A, 1st Unofficial Test, India A tour of New Zealand, 2026",
+      "matchType": "test",
+      "status": "Day 3: Stumps - India A lead by 284 runs",
+      "venue": "Bert Sutcliffe Oval, Lincoln",
+      "date": "2026-10-24",
+      "dateTimeGMT": "2026-10-24T21:30:00",
+      "teams": [
+        "New Zealand A",
+        "India A"
+      ],
+      "teamInfo": [
+        {
+          "name": "India A",
+          "shortname": "INA",
+          "img": "https://g.cricapi.com/iapi/2206-637976248888288069.webp?w=48"
+        },
+        {
+          "name": "New Zealand A",
+          "shortname": "NZA",
+          "img": "https://g.cricapi.com/iapi/2180-637982269820638615.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 113,
+          "w": 10,
+          "o": 39.3,
+          "inning": "India A Inning 1"
+        },
+        {
+          "r": 317,
+          "w": 10,
+          "o": 89.3,
+          "inning": "New Zealand A Inning 1"
+        },
+        {
+          "r": 488,
+          "w": 8,
+          "o": 119,
+          "inning": "India A Inning 2"
+        }
+      ],
+      "series_id": "b1b67dd4-aeba-4f70-9a23-257a6da73d88",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": false,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "a3eae4af-9e3f-409a-8e8b-171343a7be67",
+      "name": "Bangladesh Cricket Board XI vs West Indies, 2-Day Warm-up Match, West Indies tour of Bangladesh, 2026",
+      "matchType": "test",
+      "status": "Match drawn",
+      "venue": "Bashundhara Sports City Cricket Ground, Dhaka",
+      "date": "2026-10-22",
+      "dateTimeGMT": "2026-10-22T03:30:00",
+      "teams": [
+        "Bangladesh Cricket Board XI",
+        "West Indies"
+      ],
+      "teamInfo": [
+        {
+          "name": "Bangladesh Cricket Board XI",
+          "shortname": "BCBXI",
+          "img": "https://g.cricapi.com/iapi/1221-637878811518748535.png?w=48"
+        },
+        {
+          "name": "West Indies",
+          "shortname": "WI",
+          "img": "https://g.cricapi.com/iapi/100-637877077978319234.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 371,
+          "w": 7,
+          "o": 90,
+          "inning": "Bangladesh Cricket Board XI Inning 1"
+        },
+        {
+          "r": 336,
+          "w": 6,
+          "o": 80,
+          "inning": "West Indies Inning 1"
+        }
+      ],
+      "series_id": "afc051fd-79b4-4635-8f3a-7cda1dd50f02",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": false,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "5180605d-f5d1-47b4-9dae-8afd67c40bce",
+      "name": "Nigeria vs Uganda, 15th Match, ICC Mens T20 World Cup Africa Sub Regional Qualifier C 2026",
+      "matchType": "t20",
+      "status": "Nigeria won by 1 run",
+      "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+      "date": "2026-10-25",
+      "dateTimeGMT": "2026-10-25T13:00:00",
+      "teams": [
+        "Nigeria",
+        "Uganda"
+      ],
+      "teamInfo": [
+        {
+          "name": "Nigeria",
+          "shortname": "NGA",
+          "img": "https://g.cricapi.com/iapi/635-637867646765235442.webp?w=48"
+        },
+        {
+          "name": "Uganda",
+          "shortname": "UGA",
+          "img": "https://g.cricapi.com/iapi/664-637877086718333803.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 148,
+          "w": 10,
+          "o": 19.4,
+          "inning": "nigeria Inning 1"
+        },
+        {
+          "r": 147,
+          "w": 9,
+          "o": 20,
+          "inning": "Nigeria,Uganda Inning 1"
+        }
+      ],
+      "series_id": "73da12b0-33ea-455a-a891-ca61733e741d",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "e682ab1e-322e-4b18-897c-8e27783c477a",
+      "name": "Mozambique vs Zambia, 14th Match, ICC Mens T20 World Cup Africa Sub Regional Qualifier C 2026",
+      "matchType": "t20",
+      "status": "Mozambique won by 3 wkts",
+      "venue": "Nigeria Cricket Federation Oval 2, Abuja",
+      "date": "2026-10-25",
+      "dateTimeGMT": "2026-10-25T09:00:00",
+      "teams": [
+        "Mozambique",
+        "Zambia"
+      ],
+      "teamInfo": [
+        {
+          "name": "Mozambique",
+          "shortname": "MOZ",
+          "img": "https://g.cricapi.com/iapi/629-637874527190928305.webp?w=48"
+        },
+        {
+          "name": "Zambia",
+          "shortname": "ZAM",
+          "img": "https://h.cricapi.com/img/icon512.png"
+        }
+      ],
+      "score": [
+        {
+          "r": 109,
+          "w": 9,
+          "o": 20,
+          "inning": "mozambique Inning 1"
+        },
+        {
+          "r": 110,
+          "w": 7,
+          "o": 19,
+          "inning": "Mozambique,Zambia Inning 1"
+        }
+      ],
+      "series_id": "73da12b0-33ea-455a-a891-ca61733e741d",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": false,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "6207c60f-7d82-4bd7-99df-53d4cc8e7df1",
+      "name": "Gambia vs Lesotho, 13th Match, ICC Mens T20 World Cup Africa Sub Regional Qualifier C 2026",
+      "matchType": "t20",
+      "status": "Gambia won by 3 runs",
+      "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+      "date": "2026-10-25",
+      "dateTimeGMT": "2026-10-25T09:00:00",
+      "teams": [
+        "Gambia",
+        "Lesotho"
+      ],
+      "teamInfo": [
+        {
+          "name": "Gambia",
+          "shortname": "GAM",
+          "img": "https://h.cricapi.com/img/icon512.png"
+        },
+        {
+          "name": "Lesotho",
+          "shortname": "LES",
+          "img": "https://g.cricapi.com/iapi/622-637876983538194362.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 112,
+          "w": 9,
+          "o": 20,
+          "inning": "gambia Inning 1"
+        },
+        {
+          "r": 109,
+          "w": 10,
+          "o": 19.5,
+          "inning": "Gambia,Lesotho Inning 1"
+        }
+      ],
+      "series_id": "73da12b0-33ea-455a-a891-ca61733e741d",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "5794e291-c7ff-4542-8835-792bc4e06911",
+      "name": "Lesotho vs Nigeria, 12th Match, ICC Mens T20 World Cup Africa Sub Regional Qualifier C 2026",
+      "matchType": "t20",
+      "status": "Nigeria won by 7 wkts",
+      "venue": "Nigeria Cricket Federation Oval 2, Abuja",
+      "date": "2026-10-24",
+      "dateTimeGMT": "2026-10-24T13:00:00",
+      "teams": [
+        "Lesotho",
+        "Nigeria"
+      ],
+      "teamInfo": [
+        {
+          "name": "Lesotho",
+          "shortname": "LES",
+          "img": "https://g.cricapi.com/iapi/622-637876983538194362.webp?w=48"
+        },
+        {
+          "name": "Nigeria",
+          "shortname": "NGA",
+          "img": "https://g.cricapi.com/iapi/635-637867646765235442.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 62,
+          "w": 10,
+          "o": 12.5,
+          "inning": "lesotho Inning 1"
+        },
+        {
+          "r": 65,
+          "w": 3,
+          "o": 7.4,
+          "inning": "Lesotho,Nigeria Inning 1"
+        }
+      ],
+      "series_id": "73da12b0-33ea-455a-a891-ca61733e741d",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "5a8024c3-e727-421b-bceb-3c47644fb1ba",
+      "name": "Gambia vs Zambia, 11th Match, ICC Mens T20 World Cup Africa Sub Regional Qualifier C 2026",
+      "matchType": "t20",
+      "status": "Zambia won by 8 wkts",
+      "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+      "date": "2026-10-24",
+      "dateTimeGMT": "2026-10-24T13:00:00",
+      "teams": [
+        "Gambia",
+        "Zambia"
+      ],
+      "teamInfo": [
+        {
+          "name": "Gambia",
+          "shortname": "GAM",
+          "img": "https://h.cricapi.com/img/icon512.png"
+        },
+        {
+          "name": "Zambia",
+          "shortname": "ZAM",
+          "img": "https://h.cricapi.com/img/icon512.png"
+        }
+      ],
+      "score": [
+        {
+          "r": 93,
+          "w": 9,
+          "o": 20,
+          "inning": "gambia Inning 1"
+        },
+        {
+          "r": 97,
+          "w": 2,
+          "o": 11.4,
+          "inning": "Gambia,Zambia Inning 1"
+        }
+      ],
+      "series_id": "73da12b0-33ea-455a-a891-ca61733e741d",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "41b3c2d0-5897-4e56-b8c7-d3116afb6ab3",
+      "name": "Uganda vs Mozambique, 10th Match, ICC Mens T20 World Cup Africa Sub Regional Qualifier C 2026",
+      "matchType": "t20",
+      "status": "Uganda won by 10 wkts",
+      "venue": "Nigeria Cricket Federation Oval 2, Abuja",
+      "date": "2026-10-24",
+      "dateTimeGMT": "2026-10-24T09:00:00",
+      "teams": [
+        "Uganda",
+        "Mozambique"
+      ],
+      "teamInfo": [
+        {
+          "name": "Mozambique",
+          "shortname": "MOZ",
+          "img": "https://g.cricapi.com/iapi/629-637874527190928305.webp?w=48"
+        },
+        {
+          "name": "Uganda",
+          "shortname": "UGA",
+          "img": "https://g.cricapi.com/iapi/664-637877086718333803.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 19,
+          "w": 10,
+          "o": 7.2,
+          "inning": "mozambique Inning 1"
+        },
+        {
+          "r": 23,
+          "w": 0,
+          "o": 0.5,
+          "inning": "Uganda,Mozambique Inning 1"
+        }
+      ],
+      "series_id": "73da12b0-33ea-455a-a891-ca61733e741d",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": false,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "b12481b9-3c03-4a66-836f-0d87019d63ab",
+      "name": "Gambia vs Uganda, 9th Match, ICC Mens T20 World Cup Africa Sub Regional Qualifier C 2026",
+      "matchType": "t20",
+      "status": "Uganda won by 10 wkts",
+      "venue": "Nigeria Cricket Federation Oval 2, Abuja",
+      "date": "2026-10-23",
+      "dateTimeGMT": "2026-10-23T13:00:00",
+      "teams": [
+        "Gambia",
+        "Uganda"
+      ],
+      "teamInfo": [
+        {
+          "name": "Gambia",
+          "shortname": "GAM",
+          "img": "https://h.cricapi.com/img/icon512.png"
+        },
+        {
+          "name": "Uganda",
+          "shortname": "UGA",
+          "img": "https://g.cricapi.com/iapi/664-637877086718333803.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 27,
+          "w": 10,
+          "o": 8.2,
+          "inning": "gambia Inning 1"
+        },
+        {
+          "r": 28,
+          "w": 0,
+          "o": 1.4,
+          "inning": "Gambia,Uganda Inning 1"
+        }
+      ],
+      "series_id": "73da12b0-33ea-455a-a891-ca61733e741d",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "cef60146-811d-495b-a3d1-64f87e588a78",
+      "name": "Nigeria vs Mozambique, 7th Match, ICC Mens T20 World Cup Africa Sub Regional Qualifier C 2026",
+      "matchType": "t20",
+      "status": "Nigeria won by 7 wkts",
+      "venue": "Nigeria Cricket Federation Oval 1, Abuja",
+      "date": "2026-10-23",
+      "dateTimeGMT": "2026-10-23T09:00:00",
+      "teams": [
+        "Nigeria",
+        "Mozambique"
+      ],
+      "teamInfo": [
+        {
+          "name": "Mozambique",
+          "shortname": "MOZ",
+          "img": "https://g.cricapi.com/iapi/629-637874527190928305.webp?w=48"
+        },
+        {
+          "name": "Nigeria",
+          "shortname": "NGA",
+          "img": "https://g.cricapi.com/iapi/635-637867646765235442.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 93,
+          "w": 10,
+          "o": 19.4,
+          "inning": "mozambique Inning 1"
+        },
+        {
+          "r": 94,
+          "w": 3,
+          "o": 8.3,
+          "inning": "Nigeria,Mozambique Inning 1"
+        }
+      ],
+      "series_id": "73da12b0-33ea-455a-a891-ca61733e741d",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": false,
+      "matchStarted": true,
+      "matchEnded": true
+    }
+  ],
+  "status": "success",
+  "info": {
+    "hitsToday": 15,
+    "hitsUsed": 1,
+    "hitsLimit": 100,
+    "credits": 0,
+    "server": 1,
+    "offsetRows": 0,
+    "totalRows": 52,
+    "queryTime": 32.3172,
+    "s": 0,
+    "cache": 1
+  }
+}

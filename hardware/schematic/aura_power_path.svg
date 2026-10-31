@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="980" viewBox="0 0 1300 980" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="30" y="40" font-size="24" font-weight="bold">AURA – Battery power path (LOCKED)</text>
+<text x="30" y="64" font-size="14" fill="#555">18650 → TP4056 B+/B− · USB → TP4056 IN only · OUT+ → slide switch → DevKit VIN · OUT− → GND · GPIO34 senses B+ via 100k/100k + 100nF</text>
+<rect x="60" y="180" width="180" height="110" rx="8" fill="#e3f2fd" stroke="#222" stroke-width="2"/>
+<text x="150.0" y="206" font-size="17" font-weight="bold" text-anchor="middle">USB 5V input</text>
+<text x="150.0" y="226" font-size="12" text-anchor="middle" fill="#444">charge only</text>
+<rect x="60" y="340" width="180" height="130" rx="8" fill="#fff3e0" stroke="#222" stroke-width="2"/>
+<text x="150.0" y="366" font-size="17" font-weight="bold" text-anchor="middle">18650 cell</text>
+<text x="150.0" y="386" font-size="12" text-anchor="middle" fill="#444">3.0–4.2 V Li-ion</text>
+<rect x="400" y="170" width="220" height="320" rx="8" fill="#f3e5f5" stroke="#222" stroke-width="2"/>
+<text x="510.0" y="196" font-size="17" font-weight="bold" text-anchor="middle">TP4056 module</text>
+<text x="510" y="475" font-size="12" fill="#444" text-anchor="middle">charger (+DW01 prot. if fitted)</text>
+<rect x="960" y="150" width="220" height="400" rx="8" fill="#e8f5e9" stroke="#222" stroke-width="2"/>
+<text x="1070.0" y="176" font-size="17" font-weight="bold" text-anchor="middle">ESP32 DevKit</text>
+<text x="1070.0" y="196" font-size="12" text-anchor="middle" fill="#444">AMS1117-3.3 on VIN</text>
+<circle cx="240" cy="215" r="4" fill="#222"/>
+<text x="230" y="220" font-size="14" font-weight="bold" text-anchor="end">VBUS</text>
+<circle cx="240" cy="265" r="4" fill="#222"/>
+<text x="230" y="270" font-size="14" font-weight="bold" text-anchor="end">GND</text>
+<circle cx="240" cy="370" r="4" fill="#222"/>
+<text x="230" y="375" font-size="14" font-weight="bold" text-anchor="end">−</text>
+<circle cx="240" cy="430" r="4" fill="#222"/>
+<text x="230" y="435" font-size="14" font-weight="bold" text-anchor="end">+</text>
+<circle cx="400" cy="215" r="4" fill="#222"/>
+<text x="410" y="220" font-size="14" font-weight="bold" text-anchor="start">IN+</text>
+<circle cx="400" cy="265" r="4" fill="#222"/>
+<text x="410" y="270" font-size="14" font-weight="bold" text-anchor="start">IN−</text>
+<circle cx="400" cy="370" r="4" fill="#222"/>
+<text x="410" y="375" font-size="14" font-weight="bold" text-anchor="start">B−</text>
+<circle cx="400" cy="430" r="4" fill="#222"/>
+<text x="410" y="435" font-size="14" font-weight="bold" text-anchor="start">B+</text>
+<circle cx="620" cy="240" r="4" fill="#222"/>
+<text x="610" y="245" font-size="14" font-weight="bold" text-anchor="end">OUT+</text>
+<circle cx="620" cy="310" r="4" fill="#222"/>
+<text x="610" y="315" font-size="14" font-weight="bold" text-anchor="end">OUT−</text>
+<circle cx="960" cy="240" r="4" fill="#222"/>
+<text x="970" y="245" font-size="14" font-weight="bold" text-anchor="start">VIN</text>
+<circle cx="960" cy="310" r="4" fill="#222"/>
+<text x="970" y="315" font-size="14" font-weight="bold" text-anchor="start">GND</text>
+<circle cx="960" cy="440" r="4" fill="#222"/>
+<text x="970" y="445" font-size="14" font-weight="bold" text-anchor="start">GPIO34</text>
+<circle cx="1100" cy="550" r="4" fill="#222"/>
+<text x="1100" y="535" font-size="12" fill="#222" text-anchor="middle" font-weight="bold">GND (2nd pin)</text>
+<polyline points="240,215 400,215" fill="none" stroke="#d32f2f" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="240,265 400,265" fill="none" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="240,370 400,370" fill="none" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="240,430 400,430" fill="none" stroke="#d32f2f" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="620,240 720,240" fill="none" stroke="#d32f2f" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="725" cy="240" r="5" fill="#fff" stroke="#222" stroke-width="2"/><circle cx="795" cy="240" r="5" fill="#fff" stroke="#222" stroke-width="2"/>
+<line x1="729" y1="238" x2="790" y2="214" stroke="#222" stroke-width="3"/>
+<text x="760" y="200" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">SW1 slide switch</text>
+<text x="760" y="272" font-size="11" fill="#444" text-anchor="middle">(switches OUT+ only)</text>
+<polyline points="800,240 960,240" fill="none" stroke="#d32f2f" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="620,310 960,310" fill="none" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+<text x="790" y="330" font-size="12" fill="#444" text-anchor="middle">common GND</text>
+<circle cx="320" cy="430" r="6" fill="#ef6c00"/>
+<polyline points="320,430 320,620 520,620" fill="none" stroke="#ef6c00" stroke-width="3" stroke-linejoin="round"/>
+<text x="330" y="610" font-size="12" fill="#ef6c00" text-anchor="start" font-weight="bold">B+ sense tap</text>
+<rect x="520" y="608" width="100" height="24" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="570.0" y="600" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">R1 100k</text>
+<polyline points="620,620 900,620" fill="none" stroke="#1565c0" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="720" cy="620" r="6" fill="#1565c0"/>
+<circle cx="840" cy="620" r="6" fill="#1565c0"/>
+<text x="720" y="600" font-size="12" fill="#1565c0" text-anchor="middle">V_sense ≈ B+/2</text>
+<polyline points="900,620 920,620 920,440 960,440" fill="none" stroke="#1565c0" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="720,620 720,660" fill="none" stroke="#1565c0" stroke-width="3" stroke-linejoin="round"/>
+<rect x="708" y="660" width="24" height="80" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="740" y="705.0" font-size="13" fill="#222" text-anchor="start" font-weight="bold">R2 100k</text>
+<polyline points="720,740 720,800" fill="none" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="840,620 840,690" fill="none" stroke="#1565c0" stroke-width="3" stroke-linejoin="round"/>
+<line x1="815" y1="690" x2="865" y2="690" stroke="#222" stroke-width="3"/><line x1="815" y1="704" x2="865" y2="704" stroke="#222" stroke-width="3"/>
+<text x="875" y="702" font-size="13" fill="#222" text-anchor="start" font-weight="bold">C1 100nF</text>
+<polyline points="840,704 840,800" fill="none" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="720,800 1100,800 1100,550" fill="none" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="840" cy="800" r="6" fill="#222"/>
+<text x="1000" y="820" font-size="12" fill="#444" text-anchor="middle">GND (= OUT−)</text>
+<text x="320" y="460" font-size="12" fill="#d32f2f" text-anchor="middle" font-weight="bold">do NOT switch B+</text>
+<rect x="640" y="80" width="300" height="62" rx="6" fill="#fff8e1" stroke="#f9a825" stroke-width="2"/>
+<text x="650" y="100" font-size="13" fill="#222" text-anchor="start" font-weight="bold">⚠ OUT ≈ 3.0–4.2 V (follows cell)</text>
+<text x="650" y="120" font-size="12" fill="#222" text-anchor="start">VIN dropout risk: AMS1117 needs ~1 V headroom</text>
+<text x="650" y="137" font-size="12" fill="#222" text-anchor="start">→ 3V3 sags/brownouts on Wi-Fi peaks</text>
+<line x1="880" y1="142" x2="880" y2="240" stroke="#f9a825" stroke-width="1.5" stroke-dasharray="4,3"/>
+<rect x="30" y="500" width="270" height="80" rx="6" fill="#fff8e1" stroke="#f9a825" stroke-width="2"/>
+<text x="40" y="520" font-size="13" fill="#222" text-anchor="start" font-weight="bold">⚠ No load-sharing</text>
+<text x="40" y="540" font-size="12" fill="#222" text-anchor="start">DevKit draws from OUT/B+ while</text>
+<text x="40" y="557" font-size="12" fill="#222" text-anchor="start">charging → TP4056 may never</text>
+<text x="40" y="574" font-size="12" fill="#222" text-anchor="start">terminate (sees load as charge I)</text>
+<rect x="30" y="600" width="270" height="96" rx="6" fill="#fff8e1" stroke="#f9a825" stroke-width="2"/>
+<text x="40" y="620" font-size="13" fill="#222" text-anchor="start" font-weight="bold">⚠ Avoid dual USB</text>
+<text x="40" y="640" font-size="12" fill="#222" text-anchor="start">Never plug DevKit USB with SW1 ON:</text>
+<text x="40" y="657" font-size="12" fill="#222" text-anchor="start">DevKit 5V back-feeds VIN → OUT+</text>
+<text x="40" y="674" font-size="12" fill="#222" text-anchor="start">(→ cell on some modules). Flash</text>
+<text x="40" y="691" font-size="12" fill="#222" text-anchor="start">with SW1 OFF.</text>
+<rect x="30" y="716" width="270" height="96" rx="6" fill="#fff8e1" stroke="#f9a825" stroke-width="2"/>
+<text x="40" y="736" font-size="13" fill="#222" text-anchor="start" font-weight="bold">⚠ Some modules tie OUT+ to B+</text>
+<text x="40" y="756" font-size="12" fill="#222" text-anchor="start">Bare/unprotected boards: OUT = B</text>
+<text x="40" y="773" font-size="12" fill="#222" text-anchor="start">(no over-discharge cutoff).</text>
+<text x="40" y="790" font-size="12" fill="#222" text-anchor="start">Protected (DW01): OUT− ≠ B− —</text>
+<text x="40" y="807" font-size="12" fill="#222" text-anchor="start">verify with a meter.</text>
+<rect x="330" y="840" width="560" height="113" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+<text x="340" y="860" font-size="13" fill="#222" text-anchor="start" font-weight="bold">GPIO34 battery sense (ADC1_CH6, input-only)</text>
+<text x="340" y="880" font-size="12" fill="#222" text-anchor="start">R1/R2 100k/100k from B+ → 4.2 V cell ⇒ 2.1 V at pin; 3.0 V ⇒ 1.5 V</text>
+<text x="340" y="897" font-size="12" fill="#222" text-anchor="start">C1 100nF at pin to GND: low-Z source for ADC sample; read with 11 dB atten.</text>
+<text x="340" y="914" font-size="12" fill="#222" text-anchor="start">Sense B+ (not OUT+/VIN). Divider drain ≈ 21 µA always (even SW1 OFF).</text>
+<text x="340" y="931" font-size="12" fill="#222" text-anchor="start">Charging with SW1 ON: reads charge voltage (~4.2 V), not true SoC.</text>
+<text x="340" y="948" font-size="12" fill="#222" text-anchor="start">Firmware: PIN_BATT_ADC 34, BATT_DIVIDER 2.0 — matches.</text>
+<text x="940" y="880" font-size="13" fill="#222" text-anchor="start" font-weight="bold">Legend:</text>
+<line x1="940" y1="900" x2="980" y2="900" stroke="#d32f2f" stroke-width="3"/>
+<text x="990" y="905" font-size="12" fill="#222" text-anchor="start">+ power</text>
+<line x1="940" y1="918" x2="980" y2="918" stroke="#111" stroke-width="3"/>
+<text x="990" y="923" font-size="12" fill="#222" text-anchor="start">GND / −</text>
+<line x1="940" y1="936" x2="980" y2="936" stroke="#ef6c00" stroke-width="3"/>
+<text x="990" y="941" font-size="12" fill="#222" text-anchor="start">B+ sense tap</text>
+<line x1="940" y1="954" x2="980" y2="954" stroke="#1565c0" stroke-width="3"/>
+<text x="990" y="959" font-size="12" fill="#222" text-anchor="start">ADC node</text>
+</svg>
