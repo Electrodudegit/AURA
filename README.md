@@ -15,7 +15,7 @@
 
 ---
 
-AURA is a small box that sits on your desk and actually does things. It shows a smart clock, live weather, air quality, crypto prices, news, a focus timer, Oracle AI chat, and an animated Buddy face. Its rotary knob also works as a **Bluetooth macropad**, so it can control your laptop (play/pause, volume, media keys). This repo has everything you need to build your own: the **firmware**, the **schematic and pin map**, and the **3D enclosure (STEP)**.
+AURA is a small box that sits on your desk and actually does things. It shows a smart clock, live weather, air quality, crypto prices, news, a focus timer, Oracle AI chat, and an animated Buddy face. Its rotary knob also works as a **Bluetooth macropad**, so it can control your laptop (play/pause, volume, media keys). Firmware **v3.1.6** also links to one laptop on the same Wi-Fi for PC status: CPU, RAM, notifications, and Now Playing. This repo has everything you need to build your own: the **firmware**, the **schematic and pin map**, and the **3D enclosure (STEP)**.
 
 > 🎥 **Watch the full build:** [ELECTRO DUDE on YouTube](https://www.youtube.com/c/ElectroDude). It covers the breadboard prototype, the 3D enclosure, soldering, and the finished AURA.
 
@@ -50,7 +50,7 @@ AURA is a small box that sits on your desk and actually does things. It shows a 
 | 🙂 **Buddy** | Animated desk-pet face |
 | 🎛 **Macro** | **Bluetooth HID macropad** for play/pause, volume, and media keys on your PC |
 | 📈 **Stocks · 🏏 Cricket · ⚽ Football** | You can save API keys on the device now. Live feeds arrive in the **P4 update** |
-| 💻 **PC companion link** | Planned for a later update (not in v3.1.6) |
+| 💻 **PC Status + Companion** | **Settings → Companion** shows a pairing code. Over Wi‑Fi it shows CPU, RAM, notifications, and Now Playing with art from one laptop. Helper: [`firmware/AURA_v3/extras/companion/`](firmware/AURA_v3/extras/companion/) (`aura_companion.py` + `run_companion.bat`). Same network only; no cloud upload. One laptop per AURA; **Forget** rotates the token. |
 
 **Hardware highlights:** 2.8" color touchscreen · rotary knob with push button · 18650 battery with USB-C charging · custom 3D-printed shell.
 
@@ -123,7 +123,7 @@ AURA/
 │       ├── *.cpp / *.h          ← UI, apps, net, BLE HID, drivers
 │       ├── src/assets/          ← fonts, icons, theme
 │       ├── secrets.h            ← placeholders only: "put your credential here"
-│       └── extras/              ← optional host tools (not needed to flash)
+│       └── extras/companion/    ← laptop helper (aura_companion.py + run_companion.bat)
 ├── hardware/
 │   ├── schematic/               ← connection schematic, power path, pin net table (PNG + SVG)
 │   └── step/
@@ -148,13 +148,13 @@ AURA/
 2. Install **esp32 by Espressif Systems (3.3.x)** from *Boards Manager*.
 3. Install **NimBLE-Arduino by h2zero (2.5.x)** from *Library Manager*.
 4. Go to *Tools → Board* and pick **ESP32 Dev Module**.
-5. Go to *Tools → Partition Scheme* and pick **Minimal SPIFFS (1.9MB APP with OTA)**.
-6. Connect the ESP32 with a USB data cable, select the port, and click **Upload**. If it stalls at "Connecting…", hold the **BOOT** button.
+5. Go to *Tools → Partition Scheme* and pick **Huge APP (3MB No OTA / 1MB SPIFFS)**.
+6. Connect the ESP32 with a USB data cable, select the port, and click **Upload**. If it stalls at "Connecting…", hold the **BOOT** button. The first v3.1.6 upload must be a full Arduino IDE upload so the partition table is written. Do not flash an older app-only `.bin`.
 7. *(Optional)* Open the Serial Monitor at **115200 baud** to see the boot log.
 
 > 🔐 **No secrets in this repo.** Every credential field in the firmware is a placeholder that says `put your credential here`. You enter your **Wi-Fi and API keys on the device** after flashing, and AURA stores them in the ESP32's NVS flash. Nothing private gets compiled into your build or committed to git.
 
-> 💡 Updating from an older v3.1.x build? A normal app upload keeps your saved Wi-Fi, keys, touch calibration, and preferences. A full flash erase wipes them.
+> 💡 The first v3.1.6 upload has to be a full Arduino **Upload** so the Huge APP partition table is written. After that table is on the board, a later app upload keeps your saved Wi-Fi, keys, touch calibration, and preferences. A full flash erase wipes them.
 
 ---
 
@@ -174,9 +174,8 @@ Defaults: the clock is set to IST (Asia/Kolkata) and the weather location is New
 
 ## 🗺 Roadmap
 
-- [x] v3.1.6: clock faces, weather suite, crypto, news, focus, Oracle AI, Buddy, BLE macropad
+- [x] v3.1.6: clock faces, weather suite, crypto, news, focus, Oracle AI, Buddy, BLE macropad, PC companion
 - [ ] **P4:** live Stocks / Cricket / Football feeds
-- [ ] PC companion link
 - [ ] More enclosure variants
 
 Ideas and bug reports are welcome. Please open an **Issue**.
