@@ -1,9 +1,9 @@
 # AURA — Project Overview
 
-**AURA** is a DIY ESP32 desk buddy by ELECTRO DUDE. It is one battery-powered box with a color touchscreen and a rotary knob that combines a smart clock, info dashboards, an AI chat, and a Bluetooth macropad.
+**AURA** is a DIY ESP32 desk buddy by ELECTRO DUDE. It is one battery-powered box with a color touchscreen and a rotary knob that combines a smart clock, info dashboards, an AI chat, a Bluetooth macropad, and a local PC status link.
 
 - **Firmware:** v3.1.6 (Arduino C++, arduino-esp32 core 3.3.x, NimBLE-Arduino 2.5.x)
-- **Board:** ESP32-WROOM-32 (ESP32 Dev Module) · Partition: Minimal SPIFFS (1.9MB APP with OTA)
+- **Board:** ESP32-WROOM-32 (ESP32 Dev Module) · Partition: Huge APP (3MB No OTA / 1MB SPIFFS). The first v3.1.6 upload must be a full Arduino upload so the partition table is written.
 - **Secrets:** none in the repo. All credential fields say `put your credential here`, and you enter real values on the device (stored in NVS).
 
 ## Architecture
@@ -16,6 +16,7 @@
             │ UI core: app grid/list menu · 17 apps          │──► ILI9341 320×240 (SPI, CS 5, DC 2, RST 4, BL 15)
             │ Services: Wi-Fi + NTP · HTTP API fetchers      │◄─► Internet (weather, AQI, crypto, news, AI)
             │ BLE HID (NimBLE): macropad / media keys        │──► Laptop / PC
+            │ Companion: one laptop on the same Wi-Fi        │◄─► CPU, RAM, notifications, Now Playing
             │ Storage: NVS (Wi-Fi, keys, prefs, touch cal)   │
             │ Setup: AURA-Setup-XXXX SoftAP + web page       │◄── Phone (QR → 192.168.4.1)
             │ Power: battery sense on GPIO34 (2:1 divider)   │
@@ -26,14 +27,13 @@
 **Layers**
 1. **Hardware drivers:** shared SPI bus for the TFT and touch, a quadrature encoder with a push switch, and an ADC battery monitor.
 2. **UI framework:** app launcher (grid/list), clock faces, the on-screen rotary keyboard, and the Buddy animations.
-3. **Apps:** Home/Clock, Weather, Forecast, Sky, Air quality, Crypto, News, Focus/Pomodoro, World clock, System info, Oracle AI, Buddy, Macro, Stocks, Cricket, Football, and Settings.
-4. **Connectivity:** Wi-Fi station mode for live data, a SoftAP captive setup page for credentials, and BLE HID for the macropad.
+3. **Apps:** Home, Weather, Forecast, Sky, Air, Crypto, Stocks, News, Cricket, Focus, World, System, Oracle, Buddy, Macro, PC Status, and Settings. Live Stocks, Cricket, and Football feeds are still the P4 update.
+4. **Connectivity:** Wi-Fi station mode for live data, a SoftAP captive setup page for credentials, BLE HID for the macropad, and a local companion listener (Settings → Companion). The laptop helper is `firmware/AURA_v3/extras/companion/` (`aura_companion.py` + `run_companion.bat`). Same network only; no cloud upload. One laptop per AURA; Forget rotates the token.
 5. **Persistence:** ESP32 NVS. Keys are never echoed back to the screen or serial port.
 
 ## Status (v3.1.6)
-- ✅ Clock faces, weather suite, crypto, news, focus, Oracle AI, Buddy, BLE macropad
+- ✅ Clock faces, weather suite, crypto, news, focus, Oracle AI, Buddy, BLE macropad, PC companion (PC Status, Now Playing)
 - ⏳ Stocks / Cricket / Football: keys can be saved on the device now, and live feeds arrive in **P4**
-- ⏳ PC companion link: planned for a later update
 
 ## Folder Map
 
